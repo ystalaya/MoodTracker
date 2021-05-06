@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StatActivity">
+
+    <TextView
+        android:id="@+id/stat"
+        android:text="Статистика"
+        style="@style/StatBar"/>
+
+    <TextView
+        android:id="@+id/badPercent"
+        style="@style/StatBar"
+        android:background="#A789DC"
+        android:text="Синдзи" />
+
+    <TextView
+        android:id="@+id/normPercent"
+        style="@style/StatBar"
+        android:background="#E18282"
+        android:text="Аска" />
+
+    <TextView
+        android:id="@+id/goodPercent"
+        style="@style/StatBar"
+        android:background="#6775C5"
+        android:text="Мисато" />
+
+</LinearLayout>
